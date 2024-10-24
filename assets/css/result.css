@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.result-header {
+
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+  border-bottom-left-radius: 32px;
+  border-bottom-right-radius: 32px;
+  text-align: center;
+
+
+}
+
+.result-header h1 {
+  color: rgba(202, 201, 255, 1);
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+ padding: 24px 140px 24px 141px;
+}
+
+.result-text  {
+      background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+      width: 140px;
+      height: 140px;
+      top: 71px;
+      left: 118px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 118px;
+      border-radius: 140px;
+      font-size: 56px;
+      font-weight: 800;
+      line-height: 72px;
+      color: white;
+      margin-bottom: 24px;
+}
+
+.result-text span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.85px;
+    text-align: left;
+    color: rgba(202, 201, 255, 1);
+}
+
+.result-header h3 {
+  
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.27px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 8px;
+}
+
+ .result {
+ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.85px;
+    text-align: center;
+    color: rgba(202, 201, 255, 1);
+    padding-bottom: 40px;
+    margin-left: 58px;
+    margin-right: 57px;
+}
+.summaryData ul li {
+  list-style: none;
+}
+
+.summaryData ul li  img {
+  display:none;
+}
+
+.summaryData h2 {
+ 
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23.45px;
+    text-align: left;
+    color: rgba(48, 59, 89, 1);
+    margin: 24px 264px 24px 32px;
+}
+
+button {
+
+  padding: 17px 120px 16px 120px;
+  border-radius: 128px;
+  background-color: rgba(48, 59, 89, 1);
+  font-family: Hanken Grotesk;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.45px;
+  text-align: right;
+  color: rgba(255, 255, 255, 1);
+  margin: 30px;
+}
+
+
+@media screen  and (min-width: 1280px) {
+  .flex-desktop {
+  display: flex;
+ padding: 284px 352px;
+}
+
+.result-header {
+  border-radius: 32px;
+}
+.result {
+  font-size: 18px;
+    line-height: 23.45px;
+}
+.result-text {
+  margin:  35px 84px 24px 84px;
+}
+
+
+.result-header h1 {
+  font-family: Hanken Grotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31.27px;
+  text-align: left;
+  padding: 38px 86px 7px 93px;
+}
+button:hover:active {
+  background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+
+}
+
+button {
+  padding: 17px 106px 16px 107px;
+}
+}
