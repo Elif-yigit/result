@@ -70,12 +70,30 @@
     margin-left: 58px;
     margin-right: 57px;
 }
+
+.deneme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .summaryData ul li {
   list-style: none;
 }
 
-.summaryData ul li  img {
-  display:none;
+.listItem {
+
+  display: flex;
+  gap:5px;
+  align-items: center;
+
+
+}
+
+#summary {
+  gap: 16px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
 }
 
 .summaryData h2 {
@@ -102,12 +120,73 @@ button {
   margin: 30px;
 }
 
+.listElement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.lıstColor {
+
+  color: rgba(48, 59, 89, 1);
+
+}
+
+.lıstColor span {
+
+  color: rgb(48 59 89 / 72%);
+
+}
+
+.reactionScore {
+  background-color: rgb(254 222 222 / 95%);
+  border-radius: 12px;
+  padding: 16px;
+  color: rgba(255, 85, 85, 1);
+}
+
+.memoryScore {
+
+  border-radius: 12px;
+  padding: 16px;
+  color: rgba(255, 178, 30, 1);
+  background: linear-gradient(0deg, #ffb21e0f, #ffb21e3b), linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+
+.verbalScore {
+  border-radius: 12px;
+  padding: 16px;
+  color: rgba(0, 187, 143, 1);
+  background: linear-gradient(0deg, #00bb8f36, #00bb8f29), linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
+
+.visualScore {
+
+  border-radius: 12px;
+    padding: 16px;
+    color: rgba(17, 37, 214, 1);
+    background: linear-gradient(0deg, #1125d624, #1125d621), linear-gradient(0deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95));
+}
 
 @media screen  and (min-width: 1280px) {
-  .flex-desktop {
-  display: flex;
- padding: 284px 352px;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
 }
+
+.flex-desktop {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 368px;
+  gap: 40px;
+  place-content: center;
+}
+
 
 .result-header {
   border-radius: 32px;
@@ -137,4 +216,10 @@ button:hover:active {
 button {
   padding: 17px 106px 16px 107px;
 }
+
+#summary {
+
+  margin:auto;
+}
+
 }

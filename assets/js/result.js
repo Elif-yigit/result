@@ -32,8 +32,11 @@ const summaryData = [
 
 for ( let i=0; i<summaryData.length; i++) {
     
-  summary.innerHTML += ` <img src="${summaryData[i].icon} ">
-   <li>${summaryData[i].label} - ${summaryData[i].score} /100</li>`;
+  summary.innerHTML += ` 
+   <li class="listElement ${summaryData[i].name}">
+   <div class="listItem"><img src="${summaryData[i].icon} "/>  ${summaryData[i].label} </div>
+   <div class="lıstColor"> ${summaryData[i].score} <span> /100 </span></div>
+   </li>`;
 
  total += summaryData[i].score/4;
  
