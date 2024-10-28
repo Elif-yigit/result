@@ -17,7 +17,7 @@ const summaryData = [
   {
     name: 'verbalScore',
     label: 'Verbal',
-    icon: 'assets/image/vector.png',
+    icon: 'assets/image/Vector.png',
     score: 61,
   },
   {
